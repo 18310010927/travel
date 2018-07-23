@@ -1,0 +1,105 @@
+===2018-03-12 12:24:50.952 INFO  TravelccProviderApplication Line:50  - Starting TravelccProviderApplication on LAPTOP-7NB993HC with PID 7292 (F:\IdeaWorkspace\travelcc-provider\target\classes started by HP in F:\IdeaWorkspace\travelcc-provider)
+===2018-03-12 12:24:50.962 INFO  TravelccProviderApplication Line:656 - The following profiles are active: dev
+===2018-03-12 12:24:51.002 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@21de60b4: startup date [Mon Mar 12 12:24:51 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 12:24:51.512 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:434 - Registering beans for JMX exposure on startup
+===2018-03-12 12:24:51.532 INFO  TravelccProviderApplication Line:59  - Started TravelccProviderApplication in 1.282 seconds (JVM running for 4.009)
+===2018-03-12 12:24:51.542 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:989 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@21de60b4: startup date [Mon Mar 12 12:24:51 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 12:24:51.552 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:452 - Unregistering JMX-exposed beans on shutdown
+===2018-03-12 13:33:49.509 INFO  TravelccProviderApplication Line:50  - Starting TravelccProviderApplication on LAPTOP-7NB993HC with PID 10800 (F:\IdeaWorkspace\travelcc-provider\target\classes started by HP in F:\IdeaWorkspace\travelcc-provider)
+===2018-03-12 13:33:49.509 INFO  TravelccProviderApplication Line:656 - The following profiles are active: dev
+===2018-03-12 13:33:49.599 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@481a996b: startup date [Mon Mar 12 13:33:49 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 13:33:50.199 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:434 - Registering beans for JMX exposure on startup
+===2018-03-12 13:33:50.219 INFO  TravelccProviderApplication Line:59  - Started TravelccProviderApplication in 1.366 seconds (JVM running for 2.463)
+===2018-03-12 13:33:50.229 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:989 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@481a996b: startup date [Mon Mar 12 13:33:49 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 13:33:50.229 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:452 - Unregistering JMX-exposed beans on shutdown
+===2018-03-12 13:34:19.564 INFO  TravelccProviderApplication Line:50  - Starting TravelccProviderApplication on LAPTOP-7NB993HC with PID 5480 (F:\IdeaWorkspace\travelcc-provider\target\classes started by HP in F:\IdeaWorkspace\travelcc-provider)
+===2018-03-12 13:34:19.564 INFO  TravelccProviderApplication Line:656 - The following profiles are active: dev
+===2018-03-12 13:34:19.624 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@27ce24aa: startup date [Mon Mar 12 13:34:19 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 13:34:20.367 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:434 - Registering beans for JMX exposure on startup
+===2018-03-12 13:34:20.397 INFO  TravelccProviderApplication Line:59  - Started TravelccProviderApplication in 1.281 seconds (JVM running for 2.205)
+===2018-03-12 13:34:20.410 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:989 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@27ce24aa: startup date [Mon Mar 12 13:34:19 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 13:34:20.412 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:452 - Unregistering JMX-exposed beans on shutdown
+===2018-03-12 13:48:53.563 INFO  TravelccProviderApplication Line:50  - Starting TravelccProviderApplication on LAPTOP-7NB993HC with PID 10452 (F:\IdeaWorkspace\travelcc-provider\target\classes started by HP in F:\IdeaWorkspace\travelcc-provider)
+===2018-03-12 13:48:53.563 INFO  TravelccProviderApplication Line:656 - The following profiles are active: dev
+===2018-03-12 13:48:53.643 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@192d43ce: startup date [Mon Mar 12 13:48:53 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 13:48:55.214 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:434 - Registering beans for JMX exposure on startup
+===2018-03-12 13:48:55.252 INFO  TravelccProviderApplication Line:59  - Started TravelccProviderApplication in 2.121 seconds (JVM running for 3.126)
+===2018-03-12 13:48:55.255 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:989 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@192d43ce: startup date [Mon Mar 12 13:48:53 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 13:48:55.262 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:452 - Unregistering JMX-exposed beans on shutdown
+===2018-03-12 13:52:29.087 INFO  TravelccProviderApplication Line:50  - Starting TravelccProviderApplication on LAPTOP-7NB993HC with PID 6816 (F:\IdeaWorkspace\travelcc-provider\target\classes started by HP in F:\IdeaWorkspace\travelcc-provider)
+===2018-03-12 13:52:29.087 INFO  TravelccProviderApplication Line:656 - The following profiles are active: dev
+===2018-03-12 13:52:29.152 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ef3eef9: startup date [Mon Mar 12 13:52:29 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 13:52:30.407 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:434 - Registering beans for JMX exposure on startup
+===2018-03-12 13:52:30.437 INFO  TravelccProviderApplication Line:59  - Started TravelccProviderApplication in 1.782 seconds (JVM running for 2.694)
+===2018-03-12 13:52:30.437 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:989 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ef3eef9: startup date [Mon Mar 12 13:52:29 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 13:52:30.447 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:452 - Unregistering JMX-exposed beans on shutdown
+===2018-03-12 13:58:28.180 INFO  TravelccProviderApplication Line:50  - Starting TravelccProviderApplication on LAPTOP-7NB993HC with PID 1340 (F:\IdeaWorkspace\travelcc-provider\target\classes started by HP in F:\IdeaWorkspace\travelcc-provider)
+===2018-03-12 13:58:28.180 INFO  TravelccProviderApplication Line:656 - The following profiles are active: dev
+===2018-03-12 13:58:28.260 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3835c46: startup date [Mon Mar 12 13:58:28 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 13:58:29.425 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:434 - Registering beans for JMX exposure on startup
+===2018-03-12 13:58:29.455 INFO  TravelccProviderApplication Line:59  - Started TravelccProviderApplication in 1.745 seconds (JVM running for 2.573)
+===2018-03-12 13:58:29.455 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:989 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3835c46: startup date [Mon Mar 12 13:58:28 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 13:58:29.465 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:452 - Unregistering JMX-exposed beans on shutdown
+===2018-03-12 14:09:15.923 INFO  TravelccProviderApplication Line:50  - Starting TravelccProviderApplication on LAPTOP-7NB993HC with PID 10312 (F:\IdeaWorkspace\travelcc-provider\target\classes started by HP in F:\IdeaWorkspace\travelcc-provider)
+===2018-03-12 14:09:15.923 INFO  TravelccProviderApplication Line:656 - The following profiles are active: dev
+===2018-03-12 14:09:16.003 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@68999068: startup date [Mon Mar 12 14:09:16 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 14:09:17.164 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:434 - Registering beans for JMX exposure on startup
+===2018-03-12 14:09:17.174 INFO  TravelccProviderApplication Line:59  - Started TravelccProviderApplication in 1.741 seconds (JVM running for 2.551)
+===2018-03-12 14:09:17.184 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:989 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@68999068: startup date [Mon Mar 12 14:09:16 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 14:09:17.184 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:452 - Unregistering JMX-exposed beans on shutdown
+===2018-03-12 14:09:33.773 INFO  TravelccProviderApplication Line:50  - Starting TravelccProviderApplication on LAPTOP-7NB993HC with PID 10764 (F:\IdeaWorkspace\travelcc-provider\target\classes started by HP in F:\IdeaWorkspace\travelcc-provider)
+===2018-03-12 14:09:33.783 INFO  TravelccProviderApplication Line:656 - The following profiles are active: dev
+===2018-03-12 14:09:33.873 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@50a638b5: startup date [Mon Mar 12 14:09:33 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 14:09:35.035 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:434 - Registering beans for JMX exposure on startup
+===2018-03-12 14:09:35.045 INFO  TravelccProviderApplication Line:59  - Started TravelccProviderApplication in 1.672 seconds (JVM running for 2.546)
+===2018-03-12 14:09:35.045 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:989 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@50a638b5: startup date [Mon Mar 12 14:09:33 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 14:09:35.045 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:452 - Unregistering JMX-exposed beans on shutdown
+===2018-03-12 14:09:57.818 INFO  TravelccProviderApplication Line:50  - Starting TravelccProviderApplication on LAPTOP-7NB993HC with PID 7592 (F:\IdeaWorkspace\travelcc-provider\target\classes started by HP in F:\IdeaWorkspace\travelcc-provider)
+===2018-03-12 14:09:57.828 INFO  TravelccProviderApplication Line:656 - The following profiles are active: dev
+===2018-03-12 14:09:57.908 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2145b572: startup date [Mon Mar 12 14:09:57 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 14:09:59.338 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:434 - Registering beans for JMX exposure on startup
+===2018-03-12 14:09:59.348 INFO  TravelccProviderApplication Line:59  - Started TravelccProviderApplication in 1.98 seconds (JVM running for 2.898)
+===2018-03-12 14:09:59.348 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:989 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2145b572: startup date [Mon Mar 12 14:09:57 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 14:09:59.358 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:452 - Unregistering JMX-exposed beans on shutdown
+===2018-03-12 14:10:15.732 INFO  TravelccProviderApplication Line:50  - Starting TravelccProviderApplication on LAPTOP-7NB993HC with PID 9972 (F:\IdeaWorkspace\travelcc-provider\target\classes started by HP in F:\IdeaWorkspace\travelcc-provider)
+===2018-03-12 14:10:15.742 INFO  TravelccProviderApplication Line:656 - The following profiles are active: dev
+===2018-03-12 14:10:15.832 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2c767a52: startup date [Mon Mar 12 14:10:15 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 14:10:16.982 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:434 - Registering beans for JMX exposure on startup
+===2018-03-12 14:10:16.992 INFO  TravelccProviderApplication Line:59  - Started TravelccProviderApplication in 1.67 seconds (JVM running for 2.492)
+===2018-03-12 14:10:16.992 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:989 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2c767a52: startup date [Mon Mar 12 14:10:15 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 14:10:17.002 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:452 - Unregistering JMX-exposed beans on shutdown
+===2018-03-12 14:12:30.253 INFO  TravelccProviderApplication Line:50  - Starting TravelccProviderApplication on LAPTOP-7NB993HC with PID 11116 (F:\IdeaWorkspace\travelcc-provider\target\classes started by HP in F:\IdeaWorkspace\travelcc-provider)
+===2018-03-12 14:12:30.263 INFO  TravelccProviderApplication Line:656 - The following profiles are active: dev
+===2018-03-12 14:12:30.343 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@27ce24aa: startup date [Mon Mar 12 14:12:30 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 14:12:31.543 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:434 - Registering beans for JMX exposure on startup
+===2018-03-12 14:12:31.563 INFO  TravelccProviderApplication Line:59  - Started TravelccProviderApplication in 1.8 seconds (JVM running for 2.615)
+===2018-03-12 14:12:31.563 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:989 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@27ce24aa: startup date [Mon Mar 12 14:12:30 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 14:12:31.563 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:452 - Unregistering JMX-exposed beans on shutdown
+===2018-03-12 14:14:35.024 INFO  TravelccProviderApplication Line:50  - Starting TravelccProviderApplication on LAPTOP-7NB993HC with PID 7492 (F:\IdeaWorkspace\travelcc-provider\target\classes started by HP in F:\IdeaWorkspace\travelcc-provider)
+===2018-03-12 14:14:35.024 INFO  TravelccProviderApplication Line:656 - The following profiles are active: dev
+===2018-03-12 14:14:35.104 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1cbbffcd: startup date [Mon Mar 12 14:14:35 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 14:14:36.295 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:434 - Registering beans for JMX exposure on startup
+===2018-03-12 14:14:36.315 INFO  TravelccProviderApplication Line:59  - Started TravelccProviderApplication in 1.727 seconds (JVM running for 2.496)
+===2018-03-12 14:14:36.315 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:989 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1cbbffcd: startup date [Mon Mar 12 14:14:35 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 14:14:36.315 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:452 - Unregistering JMX-exposed beans on shutdown
+===2018-03-12 14:15:53.385 INFO  TravelccProviderApplication Line:50  - Starting TravelccProviderApplication on LAPTOP-7NB993HC with PID 10756 (F:\IdeaWorkspace\travelcc-provider\target\classes started by HP in F:\IdeaWorkspace\travelcc-provider)
+===2018-03-12 14:15:53.405 INFO  TravelccProviderApplication Line:656 - The following profiles are active: dev
+===2018-03-12 14:15:53.465 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5e82df6a: startup date [Mon Mar 12 14:15:53 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 14:15:54.855 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:434 - Registering beans for JMX exposure on startup
+===2018-03-12 14:15:54.875 INFO  TravelccProviderApplication Line:59  - Started TravelccProviderApplication in 2.008 seconds (JVM running for 3.767)
+===2018-03-12 14:15:54.875 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:989 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5e82df6a: startup date [Mon Mar 12 14:15:53 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 14:15:54.875 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:452 - Unregistering JMX-exposed beans on shutdown
+===2018-03-12 14:16:55.907 INFO  TravelccProviderApplication Line:50  - Starting TravelccProviderApplication on LAPTOP-7NB993HC with PID 1972 (F:\IdeaWorkspace\travelcc-provider\target\classes started by HP in F:\IdeaWorkspace\travelcc-provider)
+===2018-03-12 14:16:55.927 INFO  TravelccProviderApplication Line:656 - The following profiles are active: dev
+===2018-03-12 14:16:55.967 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@41fbdac4: startup date [Mon Mar 12 14:16:55 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 14:16:57.405 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:434 - Registering beans for JMX exposure on startup
+===2018-03-12 14:16:57.446 INFO  TravelccProviderApplication Line:59  - Started TravelccProviderApplication in 2.059 seconds (JVM running for 2.897)
+===2018-03-12 14:16:57.455 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:989 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@41fbdac4: startup date [Mon Mar 12 14:16:55 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 14:16:57.475 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:452 - Unregistering JMX-exposed beans on shutdown
+===2018-03-12 14:17:47.757 INFO  TravelccProviderApplication Line:50  - Starting TravelccProviderApplication on LAPTOP-7NB993HC with PID 3372 (F:\IdeaWorkspace\travelcc-provider\target\classes started by HP in F:\IdeaWorkspace\travelcc-provider)
+===2018-03-12 14:17:47.770 INFO  TravelccProviderApplication Line:656 - The following profiles are active: dev
+===2018-03-12 14:17:47.883 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@c33b74f: startup date [Mon Mar 12 14:17:47 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 14:17:49.367 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:434 - Registering beans for JMX exposure on startup
+===2018-03-12 14:17:49.387 INFO  TravelccProviderApplication Line:59  - Started TravelccProviderApplication in 2.156 seconds (JVM running for 3.144)
+===2018-03-12 14:17:49.387 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:989 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@c33b74f: startup date [Mon Mar 12 14:17:47 GMT+08:00 2018]; root of context hierarchy
+===2018-03-12 14:17:49.397 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:452 - Unregistering JMX-exposed beans on shutdown

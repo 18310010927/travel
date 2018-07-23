@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>机票信息</title>
+        <link rel="stylesheet" type="text/css" href="http://www.jeasyui.net/Public/js/easyui/themes/default/easyui.css">
+        <link rel="stylesheet" type="text/css" href="http://www.jeasyui.net/Public/js/easyui/themes/icon.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
+        <script type="text/javascript" src="http://www.jeasyui.net/Public/js/easyui/jquery.easyui.min.js"></script>
+    </head>
+
+
+    <script type="text/javascript">
+        function makeOrder(){
+            location.href="/orderPage"
+            $.ajax({
+                url:"/travelcc/order",
+                ContentType:"application/json;charset=UTF-8",
+                type:"post",
+                dataType:"json",
+                data:JSON.stringify({
+                    cid :"testcid003",
+                    tripType :"2",
+                    routing : $('#routing').innerHTML
+                }),
+                success:function (data) {
+                    alert("下单成功！");
+                }
+                
+            });
+        }
+    </script>
+</head>
+<body>
+<h2>机票信息</h2>
+<div class="demo-info" style="margin-bottom:10px">
+    <div class="demo-tip icon-tip">&nbsp;</div>
+</div>
+
+
+<table id="tt" class="easyui-datagrid" style="width:400px;height:auto;">
+    <thead>
+    <tr>
+        <th field="maxSeats" width="100px">可预订的座位数</th>
+        <th field="routing" width="80px">价格（元）</th>
+        <th field="rule" width="100px">退改签规定</th>
+        <th field="do" width="100px">操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr name="verifyRespResult" th:object="${verifyRespResult}">
+        <td th:text="*{maxSeats}"></td>
+        <td th:text="*{routing.adultPrice}"></td>
+        <td th:text="*{rule.refund}"></td>
+        <td ><input type="button" value="去下单" onclick="makeOrder()"></td>
+    </tr>
+    </tbody>
+</table>
+
+
+</body>
+</html>

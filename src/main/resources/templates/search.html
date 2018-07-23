@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>机票查询</title>
+    <link rel="stylesheet" type="text/css" href="themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="demo/demo.css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="http://www.w3cschool.cc/try/jeasyui/datagrid-detailview.js"></script>
+
+    <script type="text/javascript">
+        function doSearch(){
+            $('#tt').datagrid('load',{
+                cid: $('#cid').val(),
+                tripType: $('#tripType').val(),
+                fromCity: $('#fromCity').val(),
+                toCity: $('#toCity').val(),
+                fromDate: $('#fromDate').val(),
+                retDate: $('#retDate').val()
+            });
+        }
+        function doVerify(){
+            location.href = "/travelcc/verification?cid=testcid003&&tripType="+$('#tripType').val();
+
+             $.ajax({
+                url:"/travelcc/verification",
+                ContentType:"application/json;charset=UTF-8",
+                type:"post",
+                dataType:"json",
+                data:JSON.stringify({
+                    cid :"testcid003",
+                    tripType :$('#tripType').val(),
+                    routing : rows[0]
+                }),
+                success:function (data) {
+                    alert("请求成功");
+                }
+            })
+        }
+
+        function deal_rule(value,row,index){
+            if(row.rule!=undefined){
+                return row.rule.refund;
+            }
+        }
+        function deal_fromSegments(value,row,index){
+            if(row.fromSegments!=undefined){
+                return row.fromSegments[index];
+            }
+        }
+        function deal_retSegments(value,row,index){
+            if(row.retSegments!=undefined){
+                return row.retSegments[index];
+
+            }
+        }
+    </script>
+</head>
+<body>
+<h2>机票查询</h2>
+<div class="demo-info" style="margin-bottom:10px">
+    <div class="demo-tip icon-tip">&nbsp;</div>
+</div>
+
+<table id="tt" class="easyui-datagrid" style="width: 100%; height:250px"
+       url="travelcc/search"
+       title="Searching" iconCls="icon-search" toolbar="#tb"
+       rownumbers="true" pagination="true">
+    <thead>
+    <tr>
+        <th field="ck" checkbox="true">成人单价（元）</th>
+        <th field="adultPrice" width="100" align="center">成人单价（元）</th>
+        <th field="adultTax" width="100" align="center">成人税费（元）</th>
+        <th field="childPrice" width="100" align="center">儿童单价（元）</th>
+        <th field="childTax" width="100" align="center">儿童税费（元）</th>
+        <th field="priceType" width="80" align="center">报价类型</th>
+        <th field="applyType" width="80" align="center">报价类型</th>
+        <th field="adultTaxType" width="100" align="center">成人税费类型</th>
+        <th field="childTaxType" width="100" align="center">儿童税费类型</th>
+        <th field="rule" width="90" align="center" formatter="deal_rule">退改签信息</th>
+        <th field="fromSegments" width="80" align="center" formatter="deal_fromSegments">去程航段</th>
+        <th field="retSegments" width="80" align="center" formatter="deal_retSegments">回程航段</th>
+    </tr>
+    </thead>
+</table>
+<div id="tb" style="padding:3px">
+    <span>接口身份标识用户名:</span>
+    <input id="cid" class="easyui-validatebox" type="text" value="testcid003" hidden="true" name="cid" style="line-height:26px;border:1px solid #ccc" required="true">
+    <span>行程类型:</span>
+    <select id="tripType"  class="easyui-combobox" style="width: 200px">
+        <option value="1">单程</option>
+        <option selected="selected" value="2">往返</option>
+    </select>
+    <br/>
+    <span>出发地:</span>
+    <input id="fromCity" class="easyui-validatebox" value="HKG" required="true" style="line-height:26px;border:1px solid #ccc">
+    <span>目的地:</span>
+    <input id="toCity" class="easyui-validatebox" value="XMN" required="true" style="line-height:26px;border:1px solid #ccc">
+    <br/>
+    <span>去程时间:</span>
+    <input id="fromDate" class="easyui-validatebox" required="true" value="20180901" style="line-height:26px;border:1px solid #ccc">
+    <span>回程日期:</span>
+    <input id="retDate" class="easyui-validatebox" required="true" value="20180921" style="line-height:26px;border:1px solid #ccc">
+    <a href="#" class="easyui-linkbutton" style="width:50px" plain="true" onclick="doSearch()">查&nbsp询</a>
+    <input type="button"  value="校&nbsp&nbsp验" onclick="doVerify()">
+</div>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>机票下单</title>
+        <link rel="stylesheet" type="text/css" href="http://www.jeasyui.net/Public/js/easyui/themes/default/easyui.css">
+        <link rel="stylesheet" type="text/css" href="http://www.jeasyui.net/Public/js/easyui/themes/icon.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
+        <script type="text/javascript" src="http://www.jeasyui.net/Public/js/easyui/jquery.easyui.min.js"></script>
+    </head>
+
+
+    <script type="text/javascript">
+        function makeOrder(){
+            $.ajax({
+                url:"/travelcc/order",
+                contentType :'application/json',
+                type:"post",
+                dataType:"json",
+                data:JSON.stringify({
+                    cid :"testcid003",
+                    tripType :"2",
+                    passengers:
+                        [{
+                            name: $('#name').val(),
+                            ageType:$('#ageType').val(),
+                            birthday: $('#birthday').val(),
+                            gender: $('#gender').val(),
+                            cardType: $('#cardType').val(),
+                            cardNum: $('#cardNum').val(),
+                            cardExpired: $('#cardExpired').val(),
+                            cardIssuePlace: $('#cardIssuePlace').val(),
+                            nationality: $('#nationality').val()
+                        }],
+                        
+                    contact:
+                       {
+                            name: $('#cname').val(),
+                            address: $('#address').val(),
+                            postcode: $('#postcode').val(),
+                            email: $('#email').val(),
+                            mobile: $('#mobile').val()
+                       },
+
+                }),
+
+                success:function (data) {
+                	//var obj=JSON.parse(data);//转换后的JSON对象
+                	
+                	if(data.code==1) {
+                        alert("下单失败！",data.msg);
+                      }else {
+                      	alert("下单成功");
+                        alert(data.extParams.orderRespResult.pnrCode);
+                      }
+                  } 
+            })
+        }
+    </script>
+</head>
+<body>
+<h2>机票下单</h2>
+<div class="demo-info" style="margin-bottom:10px">
+    <div class="demo-tip icon-tip">&nbsp;</div>
+</div>
+
+<form action="/travelcc/order" method="post">
+<table id="tt" class="easyui-datagrid" style="width:auto;height:auto;">
+	
+    <thead>
+    <tr> <th colspan="9"  field="maxSeats" width="100px"> 乘机人信息 </th></tr>
+    <tr>
+        <th field="name" width="100px">英文名</th>
+        <th field="ageType" width="100px">乘客类型</th>
+        <th field="birthday" width="100px">生日</th>
+        <th field="gender" width="100px">乘客性别</th>
+        <th field="cardNum" width="100px">证件号码</th>
+        <th field="cardType" width="100px">证件类型</th>
+        <th field="cardIssuePlace" width="100px">证件发行国家</th>
+        <th field="cardExpired" width="100px">证件有效时间</th>
+        <th field="nationality" width="100px">乘客国籍</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><input id="name" class="easyui-validatebox"  value="William/Gates/Henry" type="text" style="line-height:26px;border:1px solid #ccc" ></td>
+        <td><input id="ageType" class="easyui-validatebox" value="0" type="text" style="line-height:26px;border:1px solid #ccc" ></td>
+        <td><input id="birthday" class="easyui-validatebox" value="19551228" type="text" style="line-height:26px;border:1px solid #ccc" ></td>
+        <td><input id="gender" class="easyui-validatebox" value="M" type="text"  style="line-height:26px;border:1px solid #ccc" ></td>
+        <td><input id="cardNum" class="easyui-validatebox" value="US88888888" type="text" style="line-height:26px;border:1px solid #ccc" ></td>
+        <td><input id="cardType" class="easyui-validatebox" value="PP" type="text"  style="line-height:26px;border:1px solid #ccc" ></td>
+        <td><input id="cardIssuePlace" class="easyui-validatebox"value="US" type="text"  style="line-height:26px;border:1px solid #ccc" ></td>
+        <td><input id="cardExpired" class="easyui-validatebox" value="20200101" type="text"  style="line-height:26px;border:1px solid #ccc" ></td>
+        <td><input id="nationality" class="easyui-validatebox" value="US" type="text"  style="line-height:26px;border:1px solid #ccc" ></td>
+
+    </tr>
+    </tbody>
+</table>
+<table id="tt2" class="easyui-datagrid" style="width:550px;height:auto;">
+    <thead>
+    <tr> <th colspan="5"  field="maxSeats" width="100px">联系人信息 </th></tr>
+    <tr>
+        <th field="cname" width="100px">联系人姓名</th>
+        <th field="address" width="80px">详细地址</th>
+        <th field="postcode" width="100px">邮编</th>
+        <th field="email" width="100px">联系人邮箱</th>
+        <th field="mobile" width="150px">联系人手机号</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><input id="cname" class="easyui-validatebox" value="Shang Hai Travelcc" type="text" style="line-height:26px;border:1px solid #ccc" ></td>
+        <td><input id="address" class="easyui-validatebox" value="spring valley road" type="text" style="line-height:26px;border:1px solid #ccc" ></td>
+        <td><input id="postcode" class="easyui-validatebox" value="12345" type="text" style="line-height:26px;border:1px solid #ccc" ></td>
+        <td><input id="email" class="easyui-validatebox" value="www.12456@gmail.com" type="text"  style="line-height:26px;border:1px solid #ccc" ></td>
+        <td><input id="mobile" class="easyui-validatebox" value="13800000000" type="text" style="line-height:26px;border:1px solid #ccc" ></td>
+   		
+    </tr>
+    </tbody>
+    
+    <tbody>
+	    
+</table>
+    <input type="button" onclick="makeOrder()" value="提交">
+</form>
+
+
+</body>
+</html>
