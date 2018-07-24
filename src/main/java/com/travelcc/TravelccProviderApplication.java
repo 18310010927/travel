@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TravelccProviderApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TravelccProviderApplication.class, args);
+        SpringApplication.run(TravelccProviderApplication.class, args);
 
 	}
 }
